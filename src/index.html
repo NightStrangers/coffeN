@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeN</title>
+   <!--- <link rel="stylesheet"  href="index.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+   
+    
+</head>
+<body class="root page__shop">
+    <header class="header">
+        <img class="logo header__logo" 
+        src="images/logo.png" 
+        alt="Логотип магазина CoffeeN"
+        />
+        <h1 class="title header__title">Кофе</h1>
+        <nav class="nav header__nav">
+            <i class="fa-solid fa-heart con nav__icon"></i>
+            <i class="fa-solid fa-cart-plus icon nav__icon"></i>
+            <i class="fa-regular fa-circle-user icon nav__icon"></i>
+        </nav>
+    </header>
+    <main class="main">
+             <section class="controls-panel">
+            <div class="controls__buttons">
+                <button class="control__btn sort-btn">Сортировка</button>
+                <button class="control__btn filter-btn">Фильтры</button>
+            </div>
+            
+            <div class="search-container">
+              <input class="search__input" type="text" placeholder="Поиск">
+               <i class="fa-solid fa-magnifying-glass search__button"></i>
+            </div>
+        </section>
+         <section class="filters-panel">
+            <div class="filters__grid">
+                <div class="filter-section">
+                    <h4 class="title filter__title">Степень обжарки</h4>
+                    <ul class="filter__list">
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="roast-light">
+                            <label class="filter__item-title" for="roast-light">Светлая</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="roast-medium">
+                            <label class="filter__item-title" for="roast-medium">Средняя</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="roast-dark">
+                            <label class="filter__item-title" for="roast-dark">Тёмная</label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="filter-section">
+                    <h4 class="title filter__title">Страна</h4>
+                    <ul class="filter__list">
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="country-brazil">
+                            <label class="filter__item-title" for="country-brazil">Бразилия</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="country-ethiopia">
+                            <label class="filter__item-title" for="country-ethiopia">Эфиопия</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="country-rwanda">
+                            <label class="filter__item-title" for="country-rwanda">Руанда</label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="filter-section">
+                    <h4 class="title filter__title">Плотность</h4>
+                    <ul class="filter__list">
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="density-high">
+                            <label class="filter__item-title" for="density-high">Высокая</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="density-medium">
+                            <label class="filter__item-title" for="density-medium">Средняя</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="density-low">
+                            <label class="filter__item-title" for="density-low">Низкая</label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="filter-section">
+                    <h4 class="title filter__title">Кислотность</h4>
+                    <ul class="filter__list">
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="acidity-high">
+                            <label class="filter__item-title" for="acidity-high">Высокая</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="acidity-medium">
+                            <label class="filter__item-title" for="acidity-medium">Средняя</label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="filter__checkbox" type="checkbox" id="acidity-low">
+                            <label class="filter__item-title"  for="acidity-low">Низкая</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>            
+            
+            <div class="product-card">
+                <img src="images/caramel.jpg" alt="Кофе" class="product-image">
+                <div class="product-info">
+                    <h3 class="title product__title">Название кофе</h3>
+                    <div class="price-section">
+                        <span class="price">$$$$$</span>
+                        <div class="beans">
+                            <img class="bean__icon" src="images/bean.png" >
+                           <img class="bean__icon" src="images/bean.png" >
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <div class="action-btn">
+                           <i class="fa-regular fa-heart icon product__icon"></i>
+                        </div>
+                        <div class="action-btn">
+                           <i class="fa-solid fa-cart-plus icon product__icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="footer">
+         <div class="footer__content">
+         <img class="logo footer__logo" 
+        src="images/logo.png" 
+        alt="Логотип магазина CoffeeN"
+        />
+        <div class="footer__contacts">
+            <h3 class="title footer__title">Контакты</h3>
+                <nav class="nav footer__nav">
+                    <i class="fa-brands fa-instagram footer__nav-icon"></i>
+                    <i class="fa-brands fa-telegram footer__nav-icon"></i>
+                    <i class="fa-regular fa-envelope footer__nav-icon"></i>
+                </nav>
+        </div>
+        <div class="footer__company">
+             <h3 class="title footer__title">О компании</h3>
+        </div>
+        <div class="footer__help">
+            <h3 class="title footer__title">Помощь</h3>
+        </div>
+       </div>
+    </footer>    
+</body>
+</html>
