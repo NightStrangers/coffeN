@@ -1,0 +1,13 @@
+.search__button {
+    padding: 8px 16px;
+    border: none;
+    background: #907E70;;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search__button:hover {
+    background: #8A6F5A;
+}

@@ -1,0 +1,6 @@
+.footer__nav{
+   width: 20vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}

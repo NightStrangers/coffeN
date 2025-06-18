@@ -1,0 +1,7 @@
+.search-container {
+    display: flex;
+    background: #907E70;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #1C1C1C;
+}

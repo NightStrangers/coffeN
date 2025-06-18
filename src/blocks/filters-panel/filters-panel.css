@@ -1,0 +1,24 @@
+@import url(../filters-panel/__grid/filter__grid.css);
+@import url(../filters-panel/__title/filter__title.css);
+@import url(../filters-panel/__list/filter__list.css);
+@import url(../filters-panel/__item/filter__item.css);
+@import url(../filters-panel/__input/filter__input.css);
+@import url(../filters-panel/__title/__item-title/filter__item-title.css);
+@import url(../filters-panel/favorite/filter__favorite.css);
+.filters-panel {
+    background-color: #845D40;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    margin:auto;
+    width: 60vw;
+    height: fit-content;
+
+}
+
+        
+
+  
+    
+
+     
+

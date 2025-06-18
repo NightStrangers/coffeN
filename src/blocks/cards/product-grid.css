@@ -1,0 +1,18 @@
+@import url(../cards/__title/product__title.css);
+@import url(../cards/_actions/product-actions.css);
+@import url(../cards/_actions/-icons/action-icon.css);
+@import url(../cards/_actions/-btn/action-btn.css);
+@import url(../cards/_beans/beans.css);
+@import url(../cards/_beans/__icon/bean__icon.css);
+@import url(../cards/_img/product-image.css);
+@import url(../cards/_info/product-info.css);
+@import url(../cards/_price/price.css);
+@import url(../cards/price-section/price-section.css);
+@import url(../cards/product-card/product-card.css);
+
+    .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }

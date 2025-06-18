@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeN</title>
+    <link rel="stylesheet"  href="../index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+   
+    
+</head>
+<body class="root page__shop">
+    <header class="header">
+        <img class="logo header__logo" 
+        src="../images/logo.png" 
+        alt="Логотип магазина CoffeeN"
+        />
+        <h1 class="title header__title">Корзина</h1>
+        <nav class="nav header__nav">
+            <i class="fa-solid fa-heart con nav__icon"></i>
+            <i class="fa-solid fa-cart-plus icon nav__icon"></i>
+            <i class="fa-regular fa-circle-user icon nav__icon"></i>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="cart__tables">
+          <div class="product__table">
+            <table class="product_list">
+            <thead>
+            <tr>
+                <th class="table__title" scope="col">Товар</th>
+                <th class="table__title" scope="col">#</th>
+                <th class="table__title" scope="col">Цена</th>
+            </tr>
+            </thead>
+            <tbody class="">
+                <tr>
+                    <th  class="table__title cart-sum__title" scope="row" colspan="2">Сумма</th>
+                    <td colspan="2"></td>
+                 </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="order__table">
+           <table class="order_list">
+            <tbody>
+            <tr>
+                <th class="table__title" scope="col">Адрес</th>
+                <input type="text" class="table__input" placeholder="Адрес">
+            </tr>
+             <tr>
+                <th class="table__title" scope="col">Имя получателя</th>
+                <input type="text" class="table__input" placeholder="Имя получателя">
+             </tr>
+             <tr>
+                <th class="table__title" scope="col">Способ доставки</th>
+                <input type="text" class="table__input" placeholder="Способ доставки">
+            </tr>
+             <tr>
+                <th class="table__title" scope="col">Способ оплаты</th>
+                <input type="text" class="table__input" placeholder="Способ доставки">
+            </tr>
+             <tr>
+                <th class="table__title" scope="col">Комментарий</th>
+                <textarea nmae="textarea" class="comment">Добавьте свой комментарий</textarea>
+            </tr>
+              
+            </tbody>
+          </table>
+          </div>
+          </section>
+    </main>
+    <footer class="footer">
+         <div class="footer__content">
+         <img class="logo footer__logo" 
+        src="../images/logo.png" 
+        alt="Логотип магазина CoffeeN"
+        />
+        <div class="footer__contacts">
+            <h3 class="title footer__title">Контакты</h3>
+                <nav class="nav footer__nav">
+                    <i class="fa-brands fa-instagram footer__nav-icon"></i>
+                    <i class="fa-brands fa-telegram footer__nav-icon"></i>
+                    <i class="fa-regular fa-envelope footer__nav-icon"></i>
+                </nav>
+        </div>
+        <div class="footer__company">
+             <h3 class="title footer__title">О компании</h3>
+        </div>
+        <div class="footer__help">
+            <h3 class="title footer__title">Помощь</h3>
+        </div>
+       </div>
+    </footer>    
+</body>
+</html>

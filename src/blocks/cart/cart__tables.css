@@ -1,0 +1,9 @@
+@import url(../cart/product__table/product__table.CSS);
+@import url(../cart/order__table/order__table.css);
+@import url(../cart/__title/table__title.css);
+
+.cart__tables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

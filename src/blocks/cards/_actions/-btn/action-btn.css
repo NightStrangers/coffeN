@@ -1,0 +1,17 @@
+ .action-btn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:first-child {
+    border-right: 1px solid #000000;
+}
+
+.action-btn:hover {
+    background-color: rgba(161, 136, 127, 0.2);
+}

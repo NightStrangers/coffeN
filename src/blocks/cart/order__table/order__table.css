@@ -1,0 +1,7 @@
+.order__table{
+     width: 39vh;
+    border-radius: 5%;
+    border: 1px solid black;
+    background-color: #845D40;
+    table-layout: fixed
+}

@@ -1,0 +1,8 @@
+.root{
+    background: linear-gradient(to bottom , #B49D8C,#8C7564 );
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}

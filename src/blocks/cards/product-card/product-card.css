@@ -1,0 +1,17 @@
+      .product-card {
+            background-color: #241F1C;
+            border-radius: 15px;
+            border: 10px solid #241F1C;
+            overflow: hidden;    
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 20vh;
+            margin-left : 20vh;
+            margin-top : 1vh;
+            
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }

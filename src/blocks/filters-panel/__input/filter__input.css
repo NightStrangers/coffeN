@@ -1,0 +1,32 @@
+.filter__checkbox{
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+.filter__checkbox::after{
+  content: "\2714";
+  position: absolute;
+  top: -1vh;
+  left: -0.2vh;
+  width: 0px;
+  height: 0px;
+  font-size: 2vh;
+  transition: 50ms;
+  overflow: hidden;
+}
+.filter__checkbox:checked:after{
+  width: 30px;
+  height: 30px;
+  transition: 50ms;
+}
+.filter__checkbox:disabled{
+    background: #ccc;
+   border-color: #ccc;
+}

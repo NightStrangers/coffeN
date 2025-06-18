@@ -1,0 +1,20 @@
+@import url(../controls-panel/__buttons/control-buttons.css);
+@import url(../controls-panel/__buttons/filter/filter-btn.css);
+@import url(../controls-panel/__buttons/sort/sort-btn.css);
+@import url(../controls-panel/search-container/search-container.css);
+@import url(../controls-panel/search-container/__input/search__input.css);
+@import url(../controls-panel/search-container/__button/search__button.css);
+.controls-panel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin:auto;
+            padding: 10px 0;
+            width: 60vw;
+        }
+
+      
+    
+    
+  
+

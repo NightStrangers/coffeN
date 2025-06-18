@@ -1,0 +1,7 @@
+.header__nav{
+    margin-right: 3.5vw;
+    width: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

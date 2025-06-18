@@ -1,0 +1,12 @@
+@import url(../footer/__title/footer__title.css);
+@import url(../footer/__logo/footer__logo.css);
+@import url(../footer/__content/footer__content.css);
+@import url(../footer/__nav/footer__nav.css);
+@import url(../footer/__nav/__icon/nav__icon.css);
+.footer{
+    background-color: #000000;
+    align-items: center;
+    margin:auto;
+    flex-shrink: 0;
+    width:100vw;
+}

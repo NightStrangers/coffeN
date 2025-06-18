@@ -1,0 +1,17 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*main page*/
+/*root*/
+@import url(../src/page/root.css);
+/*header*/
+@import url(../src/blocks/header/header.css);
+/*main*/
+@import url(../src/blocks/main/main.css);
+@import url(../src/blocks/controls-panel/control-panel.css);
+@import url(../src/blocks/filters-panel/filters-panel.css);
+@import url(../src/blocks/cards/product-grid.css);
+/*footer*/
+@import url(../src/blocks/footer/footer.css);
+/*cart page*/
+/*main*/
+@import url(../src/blocks/cart/cart__tables.css);
