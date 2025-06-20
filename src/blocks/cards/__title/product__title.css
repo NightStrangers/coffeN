@@ -1,8 +1,10 @@
 .product__title {
-    margin: 0.5vh;
-    font-size: 2vh;
+    margin: 0;
+    padding-top:10px;
+    padding-left: 10px;
+    font-size: 20px;
     color: #000000;
     font-family: 'Inter', sans-serif;
     font-style: italic;
-    text-align: center;
+    text-align: start;
 }

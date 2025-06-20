@@ -1,8 +1,8 @@
-import {images} from '../image'
+import {images} from '../types/image'
 
 export default function Header() {
     return(
-         <header>
+         <header className='header'>
         <img className="logo header__logo" 
         src = {images.logo}
         alt={'Логотип магазина CoffeeN'}

@@ -1,8 +1,11 @@
 .root{
-    background: linear-gradient(to bottom , #B49D8C,#8C7564 );
+    background: linear-gradient(to bottom , #B49D8C);
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-   
+    width:100%;
+    min-height: 100vh;    
+  
 }
+
+  

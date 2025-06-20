@@ -10,9 +10,11 @@
 @import url(../cards/price-section/price-section.css);
 @import url(../cards/product-card/product-card.css);
 
-    .products-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-            margin-top: 30px;
-        }
+.products-grid {
+    width:60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    margin:auto
+}

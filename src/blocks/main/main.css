@@ -1,15 +1,14 @@
 .main{
-    background: linear-gradient(to bottom , #B49D8C,#8C7564 );
+    background: linear-gradient(to bottom , #B49D8C);
     width:80vw;
     align-items: center;
     margin:auto;
     flex-grow: 1;
+    flex: 1 0 auto;
 }
   
-    
-      
 
-        
+      
       
 
        

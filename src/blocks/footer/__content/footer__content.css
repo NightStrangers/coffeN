@@ -1,8 +1,10 @@
 .footer__content{
+    width:100%;
     background-color: #000000;
-    height: 12vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-right: 10vh
+    
 
 }

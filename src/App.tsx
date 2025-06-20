@@ -3,13 +3,14 @@ import Controls from "./components/Controls"
 import Filters from './components/Filters'
 import {filter} from './filter'
 import Card from "./components/Card"
-import { coffeeCards } from "./coffeCards"
+import { coffeeCards } from "./types/coffeCards"
+import Footer from "./components/Footer"
 
 export default function App(){
     return (
-        <div>
+       <body className="root">
             <Header/>
-            <main>
+            <main className="main" >
             <Controls/>
             <section className="filters-panel">
             <div className="filters__grid">
@@ -23,20 +24,29 @@ export default function App(){
             <Filters {...filter[2]} /> 
             <Filters {...filter[3]} />   
             </div> 
-            </section>  
+            </section> 
+            <section className="products-grid"> 
             <Card
             img={coffeeCards[0].img}
             title={coffeeCards[0].title}
             price={coffeeCards[0].price}
             roastLevel={coffeeCards[0].roastLevel}
             isFavorite
-            /> 
+            />
+            
+            <Card {...coffeeCards[1]}/>
+            <Card {...coffeeCards[2]}/>
+            <Card {...coffeeCards[3]}/>
+            <Card {...coffeeCards[4]}/>
+            <Card {...coffeeCards[5]}/>
+            </section> 
             
                
                
                  
 
             </main>
-        </div>
+            <Footer/>
+      </body>
     )
 }

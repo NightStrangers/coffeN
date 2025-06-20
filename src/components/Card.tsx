@@ -1,6 +1,6 @@
-import { images } from "../image"
+import { images } from "../types/image"
 import { CoffeeCard } from "../types/CoffeCard"
-import { coffeeCards } from "../coffeCards"
+import { coffeeCards } from "../types/coffeCards"
 
 interface CardProps extends CoffeeCard{
     onFavoriteToggle?: () => void;
