@@ -1,4 +1,4 @@
-import { images } from "../types/image"
+import { images } from "../types/data/image"
 export default function Footer(){
     return(
         <footer className="footer">

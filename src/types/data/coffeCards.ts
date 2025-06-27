@@ -1,5 +1,5 @@
 import { images } from "./image";
-import {CoffeeCard} from './CoffeCard';
+import {CoffeeCard} from '../interfaces/CoffeCard';
 
 export const coffeeCards: CoffeeCard[] = [
     {

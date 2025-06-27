@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import "./index.css"
-import {images} from "./types/image"
+import {images} from "./types/data/image"
 import App from "./App"
 
 const root = document.getElementById('root');

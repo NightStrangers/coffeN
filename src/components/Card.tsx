@@ -1,13 +1,17 @@
-import { images } from "../types/image"
-import { CoffeeCard } from "../types/CoffeCard"
-import { coffeeCards } from "../types/coffeCards"
+import { images } from "../types/data/image"
+import { CoffeeCard } from "../types/interfaces/CoffeCard"
+import { coffeeCards } from "../types/data/coffeCards"
+import FavoriteButton from "./FavoriteButtom"
 
-interface CardProps extends CoffeeCard{
+interface CardProps extends Omit<CoffeeCard, "isFavorite"> {
     onFavoriteToggle?: () => void;
     onAddToCart?: () => void;
+    isFavorite: boolean;
+    img: string;
+    title:string;
 }
 
-export default function Card({img, title, price, roastLevel, isFavorite = false, onFavoriteToggle =()=>{}, onAddToCart =()=>{}}: CardProps){
+export default function Card({img, title, price, roastLevel, isFavorite, onFavoriteToggle =()=>{}, onAddToCart =()=>{}}: CardProps){
 return(
     <div className="product-card">
         <img src={img} alt="Кофе" className="product-image"/>
@@ -27,9 +31,7 @@ return(
                 </div>
             </div>
             <div className="product-actions">
-                <button className="action-btn" onClick={onFavoriteToggle}>
-                    <i className={`fa-${isFavorite ? 'solid' : 'regular'} fa-heart icon product__icon`}/>
-                </button>
+                <FavoriteButton isFavorite={isFavorite} onToggle={onFavoriteToggle}/>
                 <button className="action-btn" onClick={onAddToCart}>
                     <i className="fa-solid fa-cart-plus icon product__icon"></i>
                 </button>
