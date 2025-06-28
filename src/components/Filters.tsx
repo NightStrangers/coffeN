@@ -1,4 +1,4 @@
-import { filter } from "../filter"
+import { filter } from "../types/data/filter"
 interface FilterProps {
   title: string;
   item1: string;
