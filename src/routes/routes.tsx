@@ -1,15 +1,15 @@
 import {Routes, Route} from "react-router-dom"
-import Favorite from "../pages/favorite"
 import MainPage from "../pages/main"
-import CartPage from "../pages/cart"
-import ProfilePage from "../pages/profile"
+import CartPage from "../pages/cartPage"
+import ProfilePage from "../pages/profilePage"
+import FavoritePage from "../pages/favoritePage"
 
 export default function AppRoutes(){
     const navigationRoute=[
     {path:"/", element:<MainPage/>},
-    {path:"/favorite", element:<Favorite/> },
-    {path:"/cart", element:<CartPage/>},
-    {path:"/profile", element:<ProfilePage/>}
+    {path:"/favoritePage", element:<FavoritePage/> },
+    {path:"/cartPage", element:<CartPage/>},
+    {path:"/profilePage", element:<ProfilePage/>}
     ]
     return <Routes>
         {navigationRoute.map((route)=>(

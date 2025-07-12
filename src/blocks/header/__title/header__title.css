@@ -14,3 +14,25 @@
     text-align: center;
     
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header__title {
+     font-size :80px; 
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__title {
+    font-size :70px; 
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .header__title{
+    font-size :60px; 
+  }
+}
+@media screen and (max-width: 424px) {
+  .header__title{
+    font-size :50px; 
+    width: 190px;
+    
+  }
+}

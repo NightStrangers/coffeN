@@ -2,13 +2,19 @@ import ReactDOM from 'react-dom/client'
 import "./index.css"
 import App from "./App"
 import { BrowserRouter } from 'react-router-dom';
-
-const root = document.getElementById('root');
-if (root){
-    
-ReactDOM.createRoot(root).render(
-<BrowserRouter>
-<App/>
-</BrowserRouter>)
+import { Provider } from 'react-redux';
+import {store} from './store/store'
+import { enableMapSet } from 'immer';
+ enableMapSet();
+const rootElement = document.getElementById('root');
+if (rootElement){
+   const root = ReactDOM.createRoot(rootElement);
+root.render(
+    <Provider store = {store}>
+    <BrowserRouter>
+    <App/>
+    </BrowserRouter>
+    </Provider>
+)
 
 }
